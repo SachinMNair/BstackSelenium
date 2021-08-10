@@ -24,7 +24,7 @@ public class LocalProxy {
 			
 			WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 			
-			driver.get("https://www.google.com");
+			driver.get("https://www.google.co.in");
 			Thread.sleep(3000);
 			
 			driver.get("https://www.amazon.in");
